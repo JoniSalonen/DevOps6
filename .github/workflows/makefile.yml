@@ -5,11 +5,11 @@ jobs:
     runs-on: macos-latest
     steps:
       - name: Clone the git repo
-        uses: actions/checkout@v4
+        uses: actions/checkout@v3
       - name: Build the code
         run: |
           make -j2
-      - uses: actions/upload-artifact@v4
+      - uses: actions/upload-artifact@v3
         with:
           name: my-artifact
           path: ./prog
