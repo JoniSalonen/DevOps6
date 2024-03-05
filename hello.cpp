@@ -4,5 +4,8 @@ using namespace std;
 
 int main()
 {
-        cout<< "Hello World" << endl;
+        string hello = "Hello";
+        string devops = "DevOps";
+        string lab = "lab 6";
+        cout<< hello+ " " + devops+ " " + lab << endl;
 }
