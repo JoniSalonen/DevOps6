@@ -1,4 +1,4 @@
-name: basic Hello world program
+name: Basic Hello world program with few extra steps
 on: [push, pull_request]
 jobs:
   my-job:
